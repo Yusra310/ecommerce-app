@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Contact Us</h1>
+    <p>If you have any questions or feedback, feel free to reach out to us:</p>
+    
+    <h2>Email</h2>
+    <p>You can email us at <a href="mailto:info@ecommerce.com">info@ecommerce.com</a></p>
+
+    <h2>Phone</h2>
+    <p>Call us at (123) 456-7890 for any inquiries or support.</p>
+    
+    <h2>Address</h2>
+    <p>123 E-commerce St, Shopping City, SC 12345</p>
+
+    <a href="{{ url_for('index') }}">Back to Home</a>
+</body>
+</html>
